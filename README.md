@@ -9,6 +9,14 @@ Application Load Balancer (ALB), Auto Scaling, secure networking, and PostgreSQL
 
 ![AWS 3-Tier Architecture](architecture/three-tier-architecture.png)
 
+## 🎯 Design Goals
+
+- High availability across multiple Availability Zones
+- Secure-by-design networking (no public DB or app access)
+- Horizontal scalability using Auto Scaling Groups
+- Separation of concerns across Web, App, and DB tiers
+- Production-grade health checks and monitoring readiness
+
 ### Architecture Components
 - **Route 53** – DNS routing (optional)
 - **Application Load Balancer (ALB)** – Public entry point
